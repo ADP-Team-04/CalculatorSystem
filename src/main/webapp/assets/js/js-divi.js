@@ -34,6 +34,8 @@ function clickResult() {
     //Get input from the user
     expr1 = document.getElementById("num1").value.trim();
     expr2 = document.getElementById('num2').value.trim();
+    
+    
 
     //Conduct data validation and report errors in the error message box if necessary
     if (expr1.match(regex) || expr1.match(t) || expr1.match(div0)) {
